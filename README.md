@@ -11,7 +11,7 @@ yarn add @groupher/eslint-config-web --dev
 
 In `.eslintrc`:
 
-```json
+```js
 { 
   extends: ['@groupher/eslint-config-web'],
 } 
