@@ -1,0 +1,23 @@
+{
+  "name": "@groupher/eslint-config-web",
+  "version": "1.0.0",
+  "description": "eslint rules used by groupher team for web dev",
+  "main": "index.js",
+  "scripts": {
+    "test": "eslint -c index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/groupher/eslint-config-web.git"
+  },
+  "keywords": [
+    "groupher",
+    "eslint"
+  ],
+  "author": "mydearxym@qq.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/groupher/eslint-config-web/issues"
+  },
+  "homepage": "https://github.com/groupher/eslint-config-web#readme"
+}
