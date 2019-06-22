@@ -1,14 +1,15 @@
 {
   "name": "@groupher/eslint-config-web",
-  "version": "1.0.0",
+  "version": "0.0.0-development",
   "description": "eslint rules used by groupher team for web dev",
   "main": "index.js",
   "scripts": {
-    "test": "eslint -c index.js"
+    "test": "eslint -c index.js tests/*.js",
+    "semantic-release": "semantic-release"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/groupher/eslint-config-web.git"
+    "url": "https://github.com/groupher/eslint-config-web.git"
   },
   "keywords": [
     "groupher",
@@ -21,9 +22,12 @@
   },
   "homepage": "https://github.com/groupher/eslint-config-web#readme",
   "devDependencies": {
-    "eslint": "^5.16.0"
+    "eslint": "^5.16.0",
+    "semantic-release": "^15.13.16",
+    "semantic-release-cli": "^5.1.1"
   },
   "dependencies": {
+    "babel-eslint": "^10.0.2",
     "eslint-config-airbnb": "^17.1.0",
     "eslint-config-prettier": "^5.0.0",
     "eslint-import-resolver-babel-module": "^5.1.0",
@@ -32,6 +36,7 @@
     "eslint-plugin-jsx-a11y": "^6.2.1",
     "eslint-plugin-prettier": "^3.1.0",
     "eslint-plugin-react": "^7.13.0",
-    "eslint-plugin-react-hooks": "^1.6.0"
+    "eslint-plugin-react-hooks": "^1.6.0",
+    "prettier": "^1.18.2"
   }
 }
