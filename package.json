@@ -22,11 +22,14 @@
   },
   "homepage": "https://github.com/groupher/eslint-config-web#readme",
   "devDependencies": {
+    "@babel/core": "^7.4.5",
+    "babel-eslint": "^10.0.2",
     "eslint": "^5.16.0",
     "semantic-release": "^15.13.16",
     "semantic-release-cli": "^5.1.1"
   },
   "dependencies": {
+    "babel-plugin-module-resolver": "^3.2.0",
     "eslint-config-airbnb": "^17.1.0",
     "eslint-config-prettier": "^5.0.0",
     "eslint-import-resolver-babel-module": "^5.1.0",

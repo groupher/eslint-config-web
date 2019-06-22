@@ -17,6 +17,11 @@ module.exports = {
     jest: true,
     'cypress/globals': true,
   },
+  settings: {
+    'import/resolver': {
+      'babel-module': {},
+    },
+  },
   rules: {
     // perfer single quotes
     quotes: [2, 'single', { avoidEscape: true }],
