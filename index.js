@@ -23,6 +23,7 @@ module.exports = {
     },
   },
   rules: {
+    // ignore import order
     'import/order': 0,
     // perfer single quotes
     quotes: [2, 'single', { avoidEscape: true }],
