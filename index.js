@@ -23,6 +23,7 @@ module.exports = {
     },
   },
   rules: {
+    'import/order': 0,
     // perfer single quotes
     quotes: [2, 'single', { avoidEscape: true }],
     // import/resolver 暂时识别不了 @xxx, 暂时关闭该检测
