@@ -56,5 +56,7 @@ module.exports = {
     "no-unused-expressions": 0,
     "react-hooks/rules-of-hooks": "error",
     "react-hooks/exhaustive-deps": "warn",
+    "no-extra-semi": 0,
+    semi: 0,
   },
 };
