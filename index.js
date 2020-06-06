@@ -58,5 +58,6 @@ module.exports = {
     "react-hooks/exhaustive-deps": "warn",
     "no-extra-semi": 0,
     semi: 0,
+    "arrow-parens": ["error", "as-needed"],
   },
 };
