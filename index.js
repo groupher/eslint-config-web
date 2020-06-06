@@ -1,8 +1,8 @@
 // see details
 // https://github.com/groupher/eslint-config-web/blob/master/index.js
 module.exports = {
-  extends: ["airbnb", "plugin:react/recommended", "prettier", "prettier/react"],
-  plugins: ["prettier", "react", "cypress", "react-hooks"],
+  extends: ["airbnb", "plugin:react/recommended"],
+  plugins: ["react", "cypress", "react-hooks"],
   parser: "babel-eslint",
   parserOptions: {
     ecmaVersion: 2016,
