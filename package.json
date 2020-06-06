@@ -1,10 +1,10 @@
 {
   "name": "@groupher/eslint-config-web",
-  "version": "0.1.0",
+  "version": "0.1.2",
   "description": "eslint rules used by groupher team for web dev",
   "main": "index.js",
   "scripts": {
-    "test": "eslint -c index.js tests/*.js",
+    "test": "./node_modules/.bin/eslint --fix -c index.js tests/*.js",
     "semantic-release": "semantic-release"
   },
   "repository": {
@@ -22,7 +22,7 @@
   },
   "homepage": "https://github.com/groupher/eslint-config-web#readme",
   "devDependencies": {
-    "@babel/core": "^7.4.5",
+    "@babel/core": "7.10.2",
     "eslint": "^5.16.0",
     "semantic-release": "^15.13.16",
     "semantic-release-cli": "^5.1.1"
