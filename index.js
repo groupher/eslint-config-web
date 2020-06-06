@@ -39,7 +39,7 @@ module.exports = {
     // force-return is unneeded
     "consistent-return": 0,
     "no-shadow": 0,
-    // error could be object for parse by upfloor
+    // error could be object for parse by up floor
     "prefer-promise-reject-errors": 0,
     "react/jsx-no-bind": 0,
     // allow JSX in js files

@@ -1,6 +1,6 @@
 {
   "name": "@groupher/eslint-config-web",
-  "version": "0.1.5",
+  "version": "2.0.0",
   "description": "eslint rules used by groupher team for web dev",
   "main": "index.js",
   "scripts": {
