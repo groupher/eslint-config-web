@@ -1,4 +1,4 @@
-// see details
+// see details in
 // https://github.com/groupher/eslint-config-web/blob/master/index.js
 module.exports = {
   extends: ["airbnb", "plugin:react/recommended"],
