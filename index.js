@@ -60,5 +60,7 @@ module.exports = {
     semi: 0,
     "arrow-parens": ["error", "as-needed"],
     "comma-dangle": ["error", "only-multiline"],
+    "no-confusing-arrow": 0,
+    "implicit-arrow-linebreak": 0,
   },
 };
