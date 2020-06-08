@@ -41,7 +41,7 @@ module.exports = {
     "no-shadow": 0,
     // error could be object for parse by up floor
     "prefer-promise-reject-errors": 0,
-    "react/jsx-no-bind": 0,
+    "react/jsx-no-bind": 2,
     // allow JSX in js files
     "react/jsx-filename-extension": [1, { extensions: [".js", ".jsx"] }],
     "react/forbid-prop-types": 0,
@@ -62,5 +62,7 @@ module.exports = {
     "comma-dangle": ["error", "only-multiline"],
     "no-confusing-arrow": 0,
     "implicit-arrow-linebreak": 0,
+    "react/jsx-wrap-multilines": [2, { prop: "ignore" }],
+    "object-curly-newline": 0,
   },
 };
