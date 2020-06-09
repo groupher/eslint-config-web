@@ -64,5 +64,9 @@ module.exports = {
     "implicit-arrow-linebreak": 0,
     "react/jsx-wrap-multilines": [2, { prop: "ignore" }],
     "object-curly-newline": 0,
+    "react/jsx-one-expression-per-line": 0,
+    "operator-linebreak": 0,
+    indent: 0,
+    "function-paren-newline": 0,
   },
 };
